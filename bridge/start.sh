@@ -9,3 +9,5 @@ echo $! > ~/.c25/bridge.pid
 IP=$(ip addr show wlan0 2>/dev/null | grep inet | grep -v inet6 | awk '{print $2}' | cut -d/ -f1 || echo "127.0.0.1")
 echo "✅ Bridge PID: $(cat ~/.c25/bridge.pid)"
 echo "📱 Set TERMUX_BRIDGE to: http://$IP:$PORT"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=start.sh

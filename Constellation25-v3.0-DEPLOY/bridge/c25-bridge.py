@@ -38,3 +38,5 @@ signal.signal(signal.SIGINT,shutdown);signal.signal(signal.SIGTERM,shutdown)
 if __name__=="__main__":
     socketserver.TCPServer.allow_reuse_address=True
     with socketserver.TCPServer(("",PORT),H) as httpd:print(f"🌌 Bridge on {PORT}",flush=True);httpd.serve_forever()
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=c25-bridge.py

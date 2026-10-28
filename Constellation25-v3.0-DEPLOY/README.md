@@ -60,3 +60,5 @@ C25.exec('Earth-Agent', 'scaffold demo --nextjs')
 © 2026 Kre8tive Holdings • Commercial License • Not Open Source  
 Architect attribution required in all derivatives.  
 Commercial inquiries: hempchoices@gmail.com
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=README.md
